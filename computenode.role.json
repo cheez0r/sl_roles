@@ -1,0 +1,30 @@
+{
+  "name": "silver_lining_computenode",
+  "default_attributes": {
+  },
+  "json_class": "Chef::Role",
+  "env_run_lists": {
+  },
+  "run_list": [
+    "recipe[ntp]",
+    "recipe[user]",
+    "recipe[cron]",
+    "recipe[build-essential]",
+    "recipe[openssh]",
+    "recipe[openssl]",
+    "recipe[sudo]",
+    "recipe[ubuntu]",
+    "recipe[emacs]",
+    "recipe[vim]",
+    "recipe[motd-tail]",
+    "recipe[fail2ban]",
+    "recipe[nova::compute]",
+    "recipe[nova::network]",
+    "recipe[nova::api]"
+  ],
+  "description": "Silver Lining Compute Node for Ubuntu",
+  "chef_type": "role",
+  "override_attributes": {
+  }
+}
+

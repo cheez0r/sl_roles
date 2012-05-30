@@ -1,0 +1,38 @@
+{
+  "name": "silver_lining_orchnode",
+  "default_attributes": {
+  },
+  "json_class": "Chef::Role",
+  "env_run_lists": {
+  },
+  "run_list": [
+    "recipe[ntp]",
+    "recipe[user]",
+    "recipe[cron]",
+    "recipe[build-essential]",
+    "recipe[openssh]",
+    "recipe[openssl]",
+    "recipe[sudo]",
+    "recipe[ubuntu]",
+    "recipe[emacs]",
+    "recipe[vim]",
+    "recipe[apt]",
+    "recipe[motd-tail]",
+    "recipe[fail2ban]",
+    "recipe[mysql]",
+    "recipe[rabbitmq]",
+    "recipe[memcached]",
+    "recipe[nginx]",
+    "recipe[xenserver]",
+    "recipe[glance]",
+    "recipe[munin]",
+    "recipe[keystone]",
+    "recipe[nova::all]",
+    "recipe[swift]"
+  ],
+  "description": "Silver Lining Orchestration Node for Ubuntu",
+  "chef_type": "role",
+  "override_attributes": {
+  }
+}
+
