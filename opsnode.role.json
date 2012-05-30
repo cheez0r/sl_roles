@@ -18,6 +18,7 @@
     "recipe[vim]",
     "recipe[motd-tail]",
     "recipe[fail2ban]",
+    "recipe[runit]",
     "recipe[nagios]",
     "recipe[ganglia]",
     "recipe[ganglia::web]",

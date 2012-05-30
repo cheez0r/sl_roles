@@ -19,6 +19,7 @@
     "recipe[apt]",
     "recipe[motd-tail]",
     "recipe[fail2ban]",
+    "recipe[runit]",
     "recipe[mysql]",
     "recipe[rabbitmq]",
     "recipe[memcached]",
