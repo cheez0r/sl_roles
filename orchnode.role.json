@@ -20,6 +20,7 @@
     "recipe[motd-tail]",
     "recipe[fail2ban]",
     "recipe[runit]",
+    "recipe[apache2]",
     "recipe[mysql]",
     "recipe[rabbitmq]",
     "recipe[memcached]",
